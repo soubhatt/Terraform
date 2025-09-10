@@ -72,8 +72,7 @@ Classes & Practice
  Day 6 — Real cloud project (e.g., AWS VPC, EC2, S3)
 
 Handy Commands
-bash
-Copy code
+
 # Format code (fix indentation)
 terraform fmt
 
@@ -91,9 +90,8 @@ terraform output
 
 # Destroy specific resource
 terraform destroy -target=aws_instance.example
+
 Project Structure (Suggested)
-css
-Copy code
 .
 ├── day-01/
 │   └── main.tf
@@ -110,6 +108,7 @@ Copy code
 │       ├── variables.tf
 │       └── outputs.tf
 └── README.md
+
 Docs & Resources
 🔗 Terraform CLI Docs
 
